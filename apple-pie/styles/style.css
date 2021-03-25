@@ -1,0 +1,95 @@
+body {
+    background-color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    margin: 0;
+}
+
+main{
+    color: white;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    background-image: url('../images/apple-pie.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+    border: none;
+    font-size: 50px;
+}
+
+h3 {
+    margin-left: 5em;
+    margin-top: 1,5em;
+    font-weight: 500;
+}
+
+.explanation{
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+    width: 35em;
+    margin-top: 5em;
+    font-size: 17px;
+    margin-bottom: 5em;
+}
+
+.solid {
+    border-top: 3px solid #bbb;
+    width: 60em;
+  }
+
+ul.list-ingred {
+    list-style-type: none;
+  }
+
+ul.list-ingred > li:before{
+    content: "-";
+    text-indent: -5px;
+}
+
+.list-ingred {
+    margin-left: 5em;
+}
+
+.rec-info{
+    width: 20em;
+    height: 3,5em;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15em;
+    margin-top: none;
+}
+
+.cook-info {
+    width: 17em;
+    height: 3,5em;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10em;
+    margin-top: 3em;
+}
+
+ol.list-directions-123 {
+    list-style-type: none;
+  }
+
+ol.list-directions-123 > li:before{
+    content: ")";
+    text-indent: -5px;
+}
+
+.directions-123{
+    align-items: flex-start;
+    margin-left: 5em;
+    margin-right: 25em;
+}
